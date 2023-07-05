@@ -3,8 +3,8 @@
 
 # Status: Me permite conocer el estado del repositorio
     git status
-# Hacer push: Publicar info
+# Hacer push: Publicar cambios de locales a remotos
     git add .
-    commit
-    push
+    git commit -m 'mensaje'
+    git push origin main
 
